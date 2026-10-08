@@ -1,0 +1,11 @@
+# Normalize text files and use LF by default.
+* text=auto
+
+# Keep documentation and configuration consistent across platforms.
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+
+# Keep Linux/container executable scripts on LF.
+backend/bin/* text eol=lf

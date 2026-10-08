@@ -1,0 +1,35 @@
+# Git and documentation
+.git
+.gitignore
+README.md
+AGENTS.md
+
+# Environment files and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+backend/config/master.key
+backend/config/credentials.yml.enc
+
+# Ruby dependencies and generated files
+.bundle
+**/.bundle
+vendor
+backend/vendor/bundle
+backend/log
+backend/tmp
+backend/storage
+backend/coverage
+
+# Node dependencies and build outputs
+node_modules
+**/node_modules
+frontend/dist
+frontend/dist-ssr
+
+# Local tooling
+.vscode
+.idea
+.DS_Store
+Thumbs.db
